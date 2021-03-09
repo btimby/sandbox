@@ -1,0 +1,23 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for testing content control on a website.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "forever --w ./ index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btimby/sandbox.git"
+  },
+  "author": "Ben Timby <btimby@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btimby/sandbox/issues"
+  },
+  "homepage": "https://github.com/btimby/sandbox#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^3.0.4"
+  }
+}
